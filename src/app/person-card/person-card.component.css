@@ -1,0 +1,42 @@
+.mat-card-avatar {
+    height: 110px;
+    width: 90px;
+    flex-shrink: 0;
+    margin-top: 30px;
+}
+
+.mat-card-avatar img {
+    border-radius: 50%;
+}
+
+mat-card {
+    margin-bottom: 20px;
+}
+
+.leftSide {
+    width: 25%;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+.rightSide {
+    display: inline-flex;
+    width: 50%;
+}
+
+mat-card-title {
+    padding: 5px 0px;
+    border-bottom: 1px dotted;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #000;
+    text-decoration: underline;
+}
